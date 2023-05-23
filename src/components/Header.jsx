@@ -6,14 +6,14 @@ const Header = () => {
     <div className='mx-8'>
 
         <div className=' pt-5 uppercase font-bold'>
-            <h1 className='flex justify-center xxs:text-2xl xs:text-3xl md:text-4xl lg:text-5xl text-gray-700'>Hedgecock Community Centre</h1>
-            <h2 className='flex justify-center xxs:text-xl text-gray-500'>A hub for the community</h2>
+            <h1 className='flex justify-center xxs:text-xl xs:text-2xl md:text-4xl lg:text-5xl text-gray-700'>Hedgecock Islamic Centre</h1>
+            <h2 className='flex justify-center xxs:text-lg xs:text-xl md:text-3xl md:pt-2 text-gray-500'>A hub for the community</h2>
         </div>
 
         {/* Donate Button  */}
         <div className="pt-6 flex justify-center ">
             <div>
-                <button className="xxs:w-[20rem] xs:w-[25rem] md:w-[42rem] lg:hidden bg-red-800 hover:bg-red-900 text-white py-2 px-6 rounded-full">Donate</button>
+                <button className="xxs:w-[20rem] xs:w-[23rem] sm:w-[28rem] md:w-[32rem] md:py-3 md:text-2xl lg:hidden bg-blue-800 hover:bg-blue-700 text-white xxs:py-2 px-6 rounded-full">Donate</button>
             </div>
         </div>
 
@@ -24,7 +24,7 @@ const Header = () => {
                 <p>5 Shawwal 1444</p>
             </div>
             <div className='mt-2'>
-                <p className='text-red-700 font-bold flex justify-end'>Timetable & Calendar</p>
+                <p className='text-blue-800 font-bold flex justify-end'>Timetable & Calendar</p>
             </div>
         </div>
 

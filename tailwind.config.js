@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 export default {
   content: [
     "./index.html",
@@ -8,7 +11,8 @@ export default {
     extend: {},
     screens: {
       xxs: '375px',
-      xs: '412px'
+      xs: '412px',
+      ...defaultTheme.screens,
     }
   },
   plugins: [require("daisyui")],
