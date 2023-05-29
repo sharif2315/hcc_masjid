@@ -5,15 +5,15 @@ const Header = () => {
     
     <div className='mx-8'>
 
-        <div className=' pt-5 uppercase font-bold'>
-            <h1 className='flex justify-center xxs:text-xl xs:text-2xl md:text-4xl lg:text-5xl text-gray-700'>Hedgecock Islamic Centre</h1>
+        <div className=' pt-5 font-bold'>
+            <h1 className='uppercase flex justify-center xxs:text-xl xs:text-2xl md:text-4xl lg:text-5xl text-gray-700'>Hedgecock Islamic Centre</h1>
             <h2 className='flex justify-center xxs:text-lg xs:text-xl md:text-3xl md:pt-2 text-gray-500'>A hub for the community</h2>
         </div>
 
         {/* Donate Button  */}
         <div className="pt-6 flex justify-center ">
             <div>
-                <button className="xxs:w-[20rem] xs:w-[23rem] sm:w-[28rem] md:w-[32rem] md:py-3 md:text-2xl lg:hidden bg-blue-800 hover:bg-blue-700 text-white xxs:py-2 px-6 rounded-full">Donate</button>
+                <button className="xxs:w-[20rem] xs:w-[23rem] sm:w-[28rem] md:w-[32rem]  md:text-xl lg:hidden bg-blue-800 hover:bg-blue-700 text-white xxs:py-2 md:py-2 px-6 rounded-full">Donate</button>
             </div>
         </div>
 
