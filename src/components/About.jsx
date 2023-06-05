@@ -11,12 +11,12 @@ const About = () => {
             </h2>
           </div>
 
-          <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-            <div className="relative xxs:h-[40rem] xs:h-[25rem] overflow-hidden sm:h-80 lg:h-full">
+          <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 bg-yellow-300">
+            <div className="xxs:h-[40rem] xs:h-[25rem] md:h-[27rem] sm:h-80 lg:h-full bg-green-200 items-center flex justify-center">
               <img
                 alt="/"
                 src="http://hedgecockcentre.org.uk/wp-content/uploads/2021/10/WhatsApp-Image-2020-07-14-at-15.49.55-2-350x350.jpeg"
-                className="absolute inset-0 h-full w-full object-cover rounded-xl shadow-xl"
+                className="rounded-xl shadow-xl"
               />
             </div>
 
