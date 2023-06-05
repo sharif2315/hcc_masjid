@@ -4,6 +4,7 @@ import Carousel from './components/Carousel'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Donate from './components/Donate'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Carousel/>
       <About/>
+      <Donate/>
       <Contact/>
       <Footer/>
     </> 
